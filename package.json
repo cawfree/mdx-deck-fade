@@ -1,0 +1,18 @@
+{
+  "name": "mdx-deck-fade",
+  "version": "0.0.1",
+  "keywords": [
+    "mdx",
+    "mdx-deck",
+    "fade"
+  ],
+  "description": "A simple <Fade/> component for mdx-deck.",
+  "main": "index.js",
+  "repository": "https://github.com/cawfree/mdx-deck-fade",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@material-ui/core": "^4.5.0"
+  }
+}
