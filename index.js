@@ -24,7 +24,7 @@ class Fade extends React.Component {
     return active;
   }
   render() {
-    const { deck, children } = this.props;
+    const { deck, children, ...extraProps } = this.props;
     const { step } = deck;
     const currentStep = step || 0;
     const hide = currentStep === 0;
@@ -33,7 +33,11 @@ class Fade extends React.Component {
       <Component
         {...props}
       >
-        {children}
+        <div
+          {...extraProps}
+        >
+          {children}
+        </div>
       </Component>
     );
   }
