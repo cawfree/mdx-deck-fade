@@ -1,5 +1,5 @@
 # mdx-deck-fade
-A &lt;Fade/> component for mdx-deck.
+A `<Fade/>` component for mdx-deck.
 
 ## 🚀 Getting Started
 
@@ -20,8 +20,7 @@ yarn add mdx-deck-fade
 ```javascript
 import Fade from 'mdx-deck-fade';
 
-<Fade
->
+<Fade>
   Press right to fade in!
 </Fade>
 
