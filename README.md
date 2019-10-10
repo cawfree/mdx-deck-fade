@@ -1,5 +1,5 @@
 # mdx-deck-fade
-A `<Fade/>` component for mdx-deck.
+A `<Fade/>` component for [mdx-deck](https://github.com/jxnblk/mdx-deck).
 
 ## 🚀 Getting Started
 
